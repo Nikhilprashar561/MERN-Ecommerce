@@ -40,6 +40,10 @@ app.use(cookieParser())
 
 app.use("/api/auth", UserRegister)
 
+app.get("/", async (req, res) => {
+    return res.status(200).json({message: "Server up and Running"})
+})
+
 app.use("/api/admin/products", adminProductsRouter);
 app.use("/api/admin/orders", adminOrderRouter);
 
