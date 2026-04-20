@@ -21,7 +21,7 @@ export const addFeatureImage = createAsyncThunk(
   "/order/addFeatureImage",
   async (image) => {
     const response = await axios.post(
-      `https://mern-ecommerce-s0nd.onrender.com/common/feature/add`,
+      `https://mern-ecommerce-s0nd.onrender.com/api/common/feature/add`,
       { image }
     );
 
