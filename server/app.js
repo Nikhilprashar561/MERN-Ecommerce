@@ -22,7 +22,7 @@ dotenv.config({
 })
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://mern-ecommerce-navy-one.vercel.app",
     methods: ['GET', 'POST', 'DELETE', 'PUT', 'PATCH'],
     allowedHeaders: [
         "Content-type",
