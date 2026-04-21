@@ -22,7 +22,7 @@ dotenv.config({
 })
 
 app.use(cors({
-    origin: "https://buyspheree.vercel.app/",
+    origin: "https://buyspheree.vercel.app",
     methods: ['GET', 'POST', 'DELETE', 'PUT', 'PATCH'],
     allowedHeaders: [
         "Content-type",
